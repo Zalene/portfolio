@@ -1,3 +1,11 @@
+window.onload = function() {
+  Particles.init({
+    selector: '.background',
+    color: ['#e6443d', '#31b2ba', '#DBEDF3'],
+    connectParticles: true,
+  });
+};
+
 $( document ).ready(function() {
     //On stock notre input dans uen variable
     $input = $('input');

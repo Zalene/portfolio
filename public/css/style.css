@@ -1,6 +1,16 @@
 /****** GENERAL *****/
 html, body {
     font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }
 
 .montserrat {
@@ -30,7 +40,7 @@ nav {
 }
 
 .navbar-light .navbar-brand:hover {
-    color: #31b2ba;
+    color: #31b1ba;
 }
 
 .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link {
@@ -54,6 +64,10 @@ nav {
 .wrap {
     background: no-repeat fixed url(../img/ordinateur.jpg);
     background-size: cover;
+}
+
+.text-wrap {
+  z-index: 100;
 }
 
 .header-filter {
