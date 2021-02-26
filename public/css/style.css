@@ -1,0 +1,404 @@
+/****** GENERAL *****/
+html, body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat';
+}
+
+.title-container {
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+}
+
+.padding-lr15 {
+    padding: 0 15px 0 15px;
+}
+
+/***** MENU DE NAVIGATION *****/
+nav {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #31b2ba;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link:hover {
+    color: #31b2ba;
+}
+
+.bg-light {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(241, 241, 241, 0);
+    border-color: rgba(241, 241, 241, 0);
+}
+
+/***** HEADER *****/
+.wrap {
+    background: no-repeat fixed url(../img/ordinateur.jpg);
+    background-size: cover;
+}
+
+.header-filter {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.header-container {
+    height: 100vh;
+    min-height: 500px;
+    color: #f1f1f1;
+}
+
+.header-container h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.header-container h2, .header-container h3 {
+    font-weight: bold;
+}
+
+/***** SERVICES *****/
+.service-container {
+    background: #373a3c;
+    color: #f1f1f1;
+    padding: 80px 0 80px 0;
+}
+
+.iconbox {
+    z-index: 5;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    padding-left: 96px;
+    padding-bottom: 40px;
+}
+
+.iconbox .icon {
+    color: #31b2ba;
+    border: 2px solid #31b2ba;
+    top: 0;
+    left: 15px;
+    font-size: 25px;
+    padding: 20px 0 0;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.icon:hover {
+    background: #31b2ba;
+    color: #000000;
+}
+
+.iconbox .title {
+    color: #31b2ba;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.iconbox p {
+    margin: 0;
+    color: #f1f1f1;
+}
+
+@keyframes myrotate {
+    0% {
+      transform: rotate(0deg);
+    }
+   100% {
+      transform: rotate(359deg);
+   }
+}
+
+@-o-keyframes myrotate {
+    0% {
+      -o-transform: rotate(0deg);
+    }
+   100% {
+      -o-transform: rotate(359deg);
+   }
+}
+
+@-moz-keyframes myrotate {
+    0% {
+      -moz-transform: rotate(0deg);
+    }
+   100% {
+      -moz-transform: rotate(359deg);
+   }
+}
+
+@-webkit-keyframes myrotate {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+   100% {
+      -webkit-transform: rotate(359deg);
+   }
+}
+
+@-ms-keyframes myrotate {
+    0% {
+      -ms-transform: rotate(0deg);
+    }
+   100% {
+      -ms-transform: rotate(359deg);
+   }
+}
+
+.rotate:hover {
+    -webkit-animation: myrotate 2.5s infinite linear;
+    -moz-animation: myrotate 2.5s infinite linear;
+    -ms-animation: myrotate 2.5s infinite linear;
+    -o-animation: myrotate 2.5s infinite linear;
+    animation: myrotate 2.5s infinite linear;
+}
+
+.rotate {
+    cursor:pointer;
+}
+
+/***** QUI SUIS-JE *****/
+.about-container {
+    background: #f1f1f1;
+    padding: 80px 0 80px 0;
+}
+
+.rounded {
+    border-radius: 10% !important;
+}
+
+.container-img {
+    padding-bottom: 30px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-cv {
+    margin-top: 15px;
+    padding: 0.5rem 1rem;
+    background-image:linear-gradient(#e07470, #e6443d);
+    font-size: 1.7rem;
+    cursor: pointer;
+    border: 1px solid #e07470;
+    border-radius: 30px;
+    transform: scale(1);
+    transition: transform 450ms;
+}
+
+.btn-cv:hover {
+    transform: scale(1.15);
+}
+
+.btn-cv a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/***** COMPETENCES *****/
+.ability-container {
+    background: #373a3c;
+    color: white;
+    padding: 80px 0 80px 0;
+}
+
+.ability-container ul {
+    padding-inline-start: 0px;
+}
+
+.ability-container h4 {
+    font-size: 35px;
+    color: #31b2ba;
+}
+
+.skills {
+    list-style-type: none;
+}
+
+.ability-container i {
+    color: #e6443d;
+}
+
+/***** PORTFOLIO *****/
+.portfolio-container {
+    background: #f1f1f1;
+    padding: 80px 0 80px 0;
+}
+
+.portfolio-container a:hover {
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.portfolio-container .filter-img {
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 450ms, padding 450ms, opacity 450ms;
+}
+
+.portfolio-container .filter-img:hover {
+    padding: 0 0 15px 0;
+    transform: scale(1.15);
+    opacity: 0.7;
+}
+
+/***** CONTACT *****/
+.contact-container {
+    background: black;
+    color: white;
+    padding: 80px 15px 10px 15px;
+    margin-bottom: -16px;
+}
+
+.contact-list a {
+    color: #31b2ba;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    color: #f1f1f1;
+}
+
+.link-mail {
+    color: white;
+    text-decoration: none;
+}
+
+/***** MENTIONS LEGALES *****/
+.ml-container {
+    background: #f1f1f1;
+    padding: 80px 0 80px 0;
+}
+
+/***** FOOTER *****/
+.footer-container {
+    background: black;
+    color: white;
+    margin-top: 16px;
+    padding: 15px;
+}
+
+.reseaux-sociaux {
+    padding-bottom: 15px;
+}
+
+.reseaux-sociaux a {
+    color: #31b2ba;
+    text-decoration: none;
+}
+
+.reseaux-sociaux a:hover {
+    color: #f1f1f1;
+}
+
+.mentions-container {
+    color: #a6a6a6;
+}
+
+.mentions-container a {
+    color: #a6a6a6;
+    text-decoration: none;
+}
+
+.mentions-container a:hover {
+    color: #31b2ba;
+}
+
+/***** MEDIA QUERIES *****/
+@media screen and (max-device-width: 780px)
+{
+    nav {
+        font-size: 3rem;
+    }
+
+    .navbar-toggler-icon {
+        width: 3em;
+        height: 3em;
+    }
+
+    .header-container h1 {
+        font-size: 6rem;
+    }
+
+    .header-container h2, .header-container h3 {
+        font-size: 2.5rem;
+    }
+
+    .iconbox {
+        padding-left: 0px;
+        min-height: 196px;
+    }
+
+    .iconbox .icon {
+        display: none;
+    }
+
+    .iconbox .title {
+        font-size: 2rem;
+        min-height: 76px;
+    }
+
+    .iconbox p {
+        font-size: 1.7rem;
+    }
+
+    .about-container p {
+        font-size: 1.7rem;
+    }
+
+    .btn-cv {
+        font-size: 1.7rem;
+    }
+
+    .ability-container h4 {
+        font-size: 3rem;
+    }
+
+    .ability-container li {
+        font-size: 1.7rem;
+    }
+
+    .ability-container li i {
+        display: none;
+    }
+
+    .portfolio-container p {
+        font-size: 1.5rem;
+    }
+
+    .link-mail {
+        font-size: 1.7rem;
+    }
+
+    .mentions-container a, .mentions-container p {
+        font-size: 1.5rem;
+    }
+}
