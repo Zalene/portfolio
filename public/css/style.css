@@ -276,11 +276,11 @@ nav {
     cursor: pointer;
     transform: scale(1);
     transition: transform 450ms, padding 450ms, opacity 450ms;
+    padding-bottom: 10px;
 }
 
 .portfolio-container .filter-img:hover {
-    padding: 0 0 15px 0;
-    transform: scale(1.15);
+    transform: scale(1);
     opacity: 0.7;
 }
 
